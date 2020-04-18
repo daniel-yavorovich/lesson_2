@@ -1,7 +1,7 @@
 import numpy as np
 
-SITE_PACKAGES = '/Users/daniel/.virtualenvs/lesson_2/lib/python3.7/site-packages'
-MODEL_PATH = '/Users/daniel/PycharmProjects/lessons/lesson_2/data/shape_predictor_68_face_landmarks.dat'
+SITE_PACKAGES = '<SITE_PACKAGES>'
+MODEL_PATH = '<MODEL_PATH>'
 OP_SRC_NAME = 'null1'
 OP_TABLE_NAME = 'table1'
 import sys

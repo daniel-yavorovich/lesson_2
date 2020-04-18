@@ -32,9 +32,8 @@ Open terminal and copy-paste commands
     mkdir DATA_DIR="/Users/$USER/.data"
     mv shape_predictor_68_face_landmarks.dat $MODEL_PATH
     
-
 # TouchDesigner
 
-    cat ml.py | sed 's/<SITE_PACKAGES>/$SITE_PACKAGES/g' | sed 's/<MODEL_PATH>/$MODEL_PATH'
+    wget -O - https://raw.githubusercontent.com/daniel-yavorovich/lesson_2/master/ml.py | sed "s#<SITE_PACKAGES>#$SITE_PACKAGES#g" | sed "s#<MODEL_PATH>#$MODEL_PATH#g" > ml.py
 
     
