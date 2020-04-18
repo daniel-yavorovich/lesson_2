@@ -5,8 +5,10 @@ Open terminal and copy-paste commands
 ## Core dependences (mac users only)
 
 * Install brew
-* Install cmake
 
+    brew install python
+    brew link python
+    
     brew install cmake
 
 ## Set variables
