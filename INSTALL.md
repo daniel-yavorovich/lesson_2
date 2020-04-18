@@ -4,7 +4,11 @@ Open terminal and copy-paste commands
 
 ## Core dependences (mac users only)
 
-* Install brew
+Install brew (optional)
+
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    
+Install requirements
 
     brew install python wget cmake
     brew link python
