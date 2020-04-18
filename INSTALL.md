@@ -29,7 +29,7 @@ Open terminal and copy-paste commands
     
     wget http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
     tar -xvjf shape_predictor_68_face_landmarks.dat.bz2
-    mkdir DATA_DIR="/Users/$USER/.data"
+    mkdir $DATA_DIR
     mv shape_predictor_68_face_landmarks.dat $MODEL_PATH
     
 # TouchDesigner
