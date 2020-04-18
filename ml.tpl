@@ -22,6 +22,13 @@ def onValueChange(channel, sampleIndex, val, prev):
 
     grayFrame = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
+    # resize image
+    scale_percent = 40  # percent of original size
+    width = int(img.shape[1] * scale_percent / 100)
+    height = int(img.shape[0] * scale_percent / 100)
+    dim = (width, height)
+    grayFrame = cv2.resize(grayFrame, dim, interpolation=cv2.INTER_AREA)
+
     faces = detector(grayFrame)
     dots = []
     for face in faces:
