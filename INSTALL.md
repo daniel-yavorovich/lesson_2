@@ -34,6 +34,6 @@ Open terminal and copy-paste commands
     
 # TouchDesigner
 
-    wget -O - https://raw.githubusercontent.com/daniel-yavorovich/lesson_2/master/ml.py | sed "s#<SITE_PACKAGES>#$SITE_PACKAGES#g" | sed "s#<MODEL_PATH>#$MODEL_PATH#g" > ml.py
+    wget -O - https://raw.githubusercontent.com/daniel-yavorovich/lesson_2/master/ml.tpl | sed "s#<SITE_PACKAGES>#$SITE_PACKAGES#g" | sed "s#<MODEL_PATH>#$MODEL_PATH#g" > ml.py
 
     
