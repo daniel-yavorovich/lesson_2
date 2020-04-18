@@ -6,10 +6,8 @@ Open terminal and copy-paste commands
 
 * Install brew
 
-    brew install python
+    brew install python wget cmake
     brew link python
-    
-    brew install cmake
 
 ## Set variables
 
